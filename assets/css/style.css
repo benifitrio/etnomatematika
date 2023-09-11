@@ -886,7 +886,7 @@ section {
 
 .services .icon-box p {
     line-height: 24px;
-    font-size: 14px;
+    font-size: 1rem;
     margin-bottom: 0;
 }
 
@@ -1743,7 +1743,7 @@ section {
 }
 
 #footer .footer-top .footer-contact p {
-    font-size: 1em;
+    font-size: 1rem;
     line-height: 24px;
     margin-bottom: 0;
     font-family: "Jost", sans-serif;
