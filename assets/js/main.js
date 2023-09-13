@@ -6,25 +6,25 @@
  * License: https://bootstrapmade.com/license/
  */
 //play button
-// const track = document.querySelector('#track');
-// const btn = document.querySelector('#play-btn');
+const track = document.querySelector('#track');
+const btn = document.querySelector('#play-btn');
 
-// function playPause() {
-//     if (track.paused) {
-//         track.play();
-//         //controlBtn.textContent = "Pause";
-//         btn.className = "pause";
-//     } else {
-//         track.pause();
-//         //controlBtn.textContent = "Play";
-//         btn.className = "play";
-//     }
-// }
+function playPause() {
+    if (track.paused) {
+        track.play();
+        //controlBtn.textContent = "Pause";
+        btn.classList.add("pause");
+    } else {
+        track.pause();
+        //controlBtn.textContent = "Play";
+        btn.classList.add("play");
+    }
+}
 
-// btn.addEventListener("click", playPause);
-// track.addEventListener("ended", function() {
-//     btn.className = "play";
-// });
+btn.addEventListener("click", playPause);
+track.addEventListener("ended", function() {
+    btn.classList.add("play");
+});
 
 (function() {
     "use strict";
