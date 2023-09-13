@@ -6,14 +6,26 @@
  * License: https://bootstrapmade.com/license/
  */
 //play button
-const play_btn = document.querySelector('#track');
-const btn = document.querySelector('#play-btn');
-//play event
-btn.addEventListener('click', play);
+// const track = document.querySelector('#track');
+// const btn = document.querySelector('#play-btn');
 
-function play() {
-    play_btn.play();
-}
+// function playPause() {
+//     if (track.paused) {
+//         track.play();
+//         //controlBtn.textContent = "Pause";
+//         btn.className = "pause";
+//     } else {
+//         track.pause();
+//         //controlBtn.textContent = "Play";
+//         btn.className = "play";
+//     }
+// }
+
+// btn.addEventListener("click", playPause);
+// track.addEventListener("ended", function() {
+//     btn.className = "play";
+// });
+
 (function() {
     "use strict";
 
@@ -238,18 +250,27 @@ function play() {
     /**
      * Portfolio details slider
      */
-    new Swiper('.portfolio-details-slider', {
-        speed: 400,
+    /**
+     * Hero Slider
+     */
+    var swiper = new Swiper(".sliderFeaturedPosts", {
+        spaceBetween: 0,
+        speed: 500,
+        centeredSlides: true,
         loop: true,
+        slideToClickedSlide: true,
         autoplay: {
-            delay: 5000,
-            disableOnInteraction: false
+            delay: 3000,
+            disableOnInteraction: false,
         },
         pagination: {
-            el: '.swiper-pagination',
-            type: 'bullets',
-            clickable: true
-        }
+            el: ".swiper-pagination",
+            clickable: true,
+        },
+        navigation: {
+            nextEl: ".custom-swiper-button-next",
+            prevEl: ".custom-swiper-button-prev",
+        },
     });
 
     /**
