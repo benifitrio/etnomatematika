@@ -206,6 +206,7 @@ h6 {
     transition: all 0.5s;
     z-index: 997;
     padding: 15px 0;
+    background: #f2f2f2;
 }
 
 #header.header-scrolled,
@@ -363,7 +364,7 @@ h6 {
 }
 
 .mobile-nav-toggle {
-    color: #fff;
+    color: #596d80;
     font-size: 28px;
     cursor: pointer;
     display: none;
@@ -372,6 +373,10 @@ h6 {
 }
 
 .mobile-nav-toggle.bi-x {
+    color: #fff;
+}
+
+.header-scrolled .mobile-nav-toggle {
     color: #fff;
 }
 
