@@ -207,7 +207,7 @@ h6 {
     transition: all 0.5s;
     z-index: 997;
     padding: 15px 0;
-    background-color: rgb(230 0 122/1);
+    background-color: rgb(247, 60, 160);
 }
 
 #header.header-scrolled,
