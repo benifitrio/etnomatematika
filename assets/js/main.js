@@ -1,10 +1,3 @@
-/**
- * Template Name: Arsha
- * Updated: Aug 30 2023 with Bootstrap v5.3.1
- * Template URL: https://bootstrapmade.com/arsha-free-bootstrap-html-template-corporate/
- * Author: BootstrapMade.com
- * License: https://bootstrapmade.com/license/
- */
 //play button
 const track = document.querySelector('#track');
 const btn = document.querySelector('#play-btn');
