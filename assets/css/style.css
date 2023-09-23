@@ -1943,9 +1943,9 @@ section {
     .section-title h2 {
         font-size: 1.2em;
         font-weight: bold;
-        text-transform: uppercase;
-        margin-bottom: 1em;
-        padding-bottom: 1em;
+        /* text-transform: uppercase; */
+        /* margin-bottom: 1em;
+        padding-bottom: 1em; */
         position: relative;
         color: #37517e;
     }
