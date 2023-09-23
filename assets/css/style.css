@@ -207,7 +207,7 @@ h6 {
     transition: all 0.5s;
     z-index: 997;
     padding: 15px 0;
-    background-color: rgb(247, 60, 160);
+    background-color: rgba(247, 60, 160, .9);
 }
 
 #header.header-scrolled,
@@ -261,7 +261,7 @@ h6 {
     justify-content: space-between;
     padding: 10px 0 10px 30px;
     font-size: 15px;
-    font-weight: 500;
+    font-weight: 600;
     color: #fff;
     white-space: nowrap;
     transition: 0.3s;
@@ -286,7 +286,7 @@ h6 {
     padding: 8px 20px;
     margin-left: 30px;
     border-radius: 50px;
-    color: #fff;
+    color: #000;
     font-size: 14px;
     border: 2px solid #47b2e4;
     font-weight: 600;
@@ -295,7 +295,7 @@ h6 {
 .navbar .getstarted:hover,
 .navbar .getstarted:focus:hover {
     color: #47b2e4;
-    background-color: rgb(230 0 122/1);
+    background-color: rgb(230 0 122/.9);
 }
 
 .navbar .dropdown ul {
