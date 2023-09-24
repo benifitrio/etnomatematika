@@ -990,7 +990,7 @@ section {
 # Services
 --------------------------------------------------------------*/
 
-.services .icon-box {
+.icon-box {
     box-shadow: 0px 0 25px 0 rgba(0, 0, 0, 0.1);
     color: #fff;
     padding: 50px 30px;
@@ -1567,15 +1567,6 @@ section {
 /*--------------------------------------------------------------
 # Contact
 --------------------------------------------------------------*/
-
-.contact .info {
-    border-top: 3px solid rgb(230 0 122/1);
-    border-bottom: 3px solid rgb(230 0 122/1);
-    padding: 30px;
-    background: #fff;
-    width: 100%;
-    box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.1);
-}
 
 .contact .info i {
     font-size: 20px;
