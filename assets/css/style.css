@@ -324,7 +324,7 @@ h6 {
 .navbar .active,
 .navbar .active:focus,
 .navbar li:hover>a {
-    color: #000;
+    color: rgb(56 144 250);
 }
 
 .navbar .getstarted,
